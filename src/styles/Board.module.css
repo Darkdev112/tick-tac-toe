@@ -1,0 +1,40 @@
+.container{
+     margin: 0px 200px ;
+     @apply flex flex-col justify-center items-center
+}
+
+.para{
+    height: 60px;
+    font-size: x-large;
+}
+
+.spanbro{
+    @apply text-red-500
+}
+
+.spanbro2{
+    @apply text-green-500
+}
+
+.gridbro{
+    @apply grid grid-cols-3
+}
+
+.reset { 
+    margin: 30px;
+    @apply w-full flex flex-row justify-center
+}
+
+.resetbtn{
+    @apply bg-slate-200 text-lg rounded-md text-teal-500;
+    width: 80px;
+    height: 40px;
+}
+
+.resetbtn:hover{
+    @apply border-2 border-teal-500;
+}
+
+.resetbtn:active{
+    @apply text-cyan-800 border-2 border-cyan-800
+}

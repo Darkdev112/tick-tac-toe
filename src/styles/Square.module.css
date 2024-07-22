@@ -1,0 +1,15 @@
+.buttonbro{
+    width: 100px;
+    height: 100px;
+    background-color: #c7c7c7;
+    border-radius: 10px;
+    margin: 2px;  
+}
+
+.spanbro{
+    @apply text-gray-100 bg-red-500
+}
+
+.spanbro2{
+    @apply text-gray-100 bg-green-500
+}
